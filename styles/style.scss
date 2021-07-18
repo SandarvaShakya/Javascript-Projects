@@ -1,0 +1,95 @@
+@import "./variables";
+
+@mixin centerAlign {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $clr-background;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  @include centerAlign();
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header {
+  background-color: $clr-primary;
+  padding: 1em 0;
+
+  .logo {
+    font-size: 100px;
+    color: $clr-logo;
+  }
+
+  .heading {
+    margin: 0 auto;
+    color: #fff;
+    font-family: $ff-primary;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+}
+
+.cards-container {
+  display: grid;
+  padding: 6rem 0;
+  gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  .card {
+    display: grid;
+    background-color: #fff;
+    padding-top: 2rem;
+    border-radius: 10px;
+
+    .card__title {
+      font-family: $ff-primary;
+      color: $clr-title;
+      text-align: center;
+    }
+
+    .underline {
+      width: 80px;
+      background-color: $clr-primary;
+      border-radius: 8px;
+      height: 3px;
+      margin: 0 auto;
+      margin-top: 8px;
+    }
+
+    .card__img {
+      margin-top: 2rem;
+
+      img {
+        display: block;
+      }
+    }
+
+    .card__footer {
+      padding: 1.5rem;
+      border-radius: 0 0 10px 10px;
+      background-color: $clr-primary;
+
+      a {
+        text-decoration: none;
+        font-family: $ff-primary;
+        color: #fff;
+        font-weight: 300;
+      }
+    }
+  }
+}
