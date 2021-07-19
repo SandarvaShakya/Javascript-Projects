@@ -6,13 +6,13 @@
 
 ## <a href="https://sandarvashakya.github.io/Javascript-Projects/">List of javascript projects</a>
 
-1. Calculator
-2. Background Color Changer
-3. Counter App
-4. Message Display
-5. Responsive Navigation
-6. Quote Generator
-7. Responsive Sidebar
-8. Tip Calculator
+1. <a href="./calculator/index.html" target="_blank">Calculator</a>
+2. <a href="./color-changer/index.html" target="_blank" target="_blank">Background Color Changer</a>
+3. <a href="./counter-1/index.html" target="_blank">Counter App</a>
+4. <a href="./message/index.html" target="_blank">Message Display</a>
+5. <a href="./nav-bar/index.html" target="_blank">Responsive Navigation</a>
+6. <a href="./quote-gen/index.html" target="_blank">Quote Generator</a>
+7. <a href="./sidebar/index.html" target="_blank">Responsive Sidebar</a>
+8. <a href="./tip-calculator/index.html" target="_blank">Tip Calculator</a>
 
 <img src="./images/js.png" alt="js projects" style="margin-top: 2rem">
